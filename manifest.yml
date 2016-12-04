@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Diy1
+  host: Diy1
+  disk_quota: 1024M
+  services:
+  - Diy1-cloudantNoSQLDB
+  - Diy1-iotf-service
